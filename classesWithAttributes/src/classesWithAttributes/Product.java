@@ -9,6 +9,19 @@ public class Product {
 	private String renk;
 	private	String kod;
 	
+	public Product() {
+		
+	}
+	public Product(int id, String name, String description, double price, int stockAmount, String renk) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.description = description;
+		this.price = price;
+		this.stockAmount = stockAmount;
+		this.renk = renk;
+	
+	}
 	public int getId() {
 		return id;
 	}
